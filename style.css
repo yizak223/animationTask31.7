@@ -1,0 +1,12 @@
+
+@keyframes change-color{
+from{background-color:red ;};
+to{background-color:blue ;};
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: change-color;
+    animation-duration: 5s;
+}
