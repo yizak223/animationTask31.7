@@ -1,0 +1,72 @@
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    
+}
+.text{
+    position: relative;
+    
+    
+}
+.p{
+    position:absolute ;
+}
+.t{
+    animation: typing 1s  ;
+    color: #000;
+}
+.y{
+    animation: typing 1s 1s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.p1{
+    animation: typing 1s 2s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.i{
+    animation: typing 1s 3s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.n{
+    animation: typing 1s 4s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.g{
+    animation: typing 1s 5s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.point1{
+    animation: typing 1s 6s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.point2{
+    animation: typing 1s 7s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+.point3{
+    animation: typing 1s 8s  ;
+    animation-fill-mode: backwards;
+    color: #000000;
+}
+@keyframes typing{
+    from{
+            color: rgb(255, 255, 255);
+    }
+    to{
+        color: #000000;
+    }
+    
+}
