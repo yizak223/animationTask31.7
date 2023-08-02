@@ -46,27 +46,28 @@
         transform: rotateX(150deg);
     }
 }
-
+img{
+    width: 15vw;
+    animation: falling 2s infinite  ;
+}
 .ball{
-    position: absolute;
-    border-radius: 100%;
-    top: 400px;
-    width: 100px;
-    margin: 10px;
-    height: 100px;
-    background-color: rgb(33, 114, 189);
-    animation: falling 3s infinite  ;
+    height: 10vw;
+    width: 10vh;
+    filter: drop-shadow(5px 5px 5px black);
 }
 @keyframes falling{
-    0%{
+    from{
         transform: translate(0px,0px);
+        filter: drop-shadow(5px 5px 5px black);
     }
-    20%{
+    to{
         transform: translate(0px,180px);
         height: 150px;
         width: 150px;
+        filter: drop-shadow(30px 30px 30px black);
+        transform: scale(5);
     }
-    40%{
+    /* 40%{
         transform: translate(0px,150px);
         height: 200px;
         width: 200px;
@@ -82,9 +83,9 @@
     100%{
         transform: translate(0px,50px);
         height: 260px;
-        width: 260px;
+        width: 260px; */
     }
-}
+
 
 .textRising{
     font-size: 30px;
